@@ -22,6 +22,10 @@
 	"authors" : [{
 			"name" : "Julian Spravil",
 			"email" : "julian.spr@t-online.de"
-		}
+		},
+		     {
+			"name" : "FlyCraft Network",
+			"email" : "contact@flycraft-network.net"
+}
 	]
 }
