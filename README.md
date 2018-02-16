@@ -1,22 +1,23 @@
 #Minecraft Server Status Query
 
-[![Latest Stable Version](https://poser.pugx.org/funnyitselmo/minecraftserverstatus/v/stable)](https://packagist.org/packages/funnyitselmo/minecraftserverstatus) [![Total Downloads](https://poser.pugx.org/funnyitselmo/minecraftserverstatus/downloads)](https://packagist.org/packages/funnyitselmo/minecraftserverstatus) [![Latest Unstable Version](https://poser.pugx.org/funnyitselmo/minecraftserverstatus/v/unstable)](https://packagist.org/packages/funnyitselmo/minecraftserverstatus) [![License](https://poser.pugx.org/funnyitselmo/minecraftserverstatus/license)](https://packagist.org/packages/funnyitselmo/minecraftserverstatus)
+[![Latest Stable Version](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/v/stable)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![Total Downloads](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/downloads)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![Latest Unstable Version](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/v/unstable)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![License](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/license)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus)
 
 Minecraft Server Status Query, written in PHP, with online players, motd, favicon and more server related informations without plugins and enable-query.
 
-*Tested with Spigot 1.9 and Bungeecord 1.9 & 1.8*
+*Used on stats.flycraft-network.net*  
+*Orginial author: FunnyItsElmo*
 
 ### Installation
 ```
-composer require funnyitselmo/minecraftserverstatus
+composer require flycraftnetwork/minecraftserverstatus
 ```
 ###Tutorial
-```Java
+```php
 use MinecraftServerStatus\MinecraftServerStatus;
 
 require '../vendor/autoload.php';
 
-$response = MinecraftServerStatus::query('lostforce.com', 25565);
+$response = MinecraftServerStatus::query('play.flycraft-network.net', 25565);
 
 if (! $response) {
     echo "The Server is offline!";
