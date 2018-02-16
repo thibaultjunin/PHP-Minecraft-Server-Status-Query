@@ -1,4 +1,4 @@
-#Minecraft Server Status Query
+# Minecraft Server Status Query
 
 [![Latest Stable Version](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/v/stable)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![Total Downloads](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/downloads)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![Latest Unstable Version](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/v/unstable)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus) [![License](https://poser.pugx.org/flycraftnetwork/minecraftserverstatus/license)](https://packagist.org/packages/flycraftnetwork/minecraftserverstatus)
 
