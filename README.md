@@ -85,4 +85,4 @@ The following table contains the available variables the response can contain. T
 </tr>
 </table>
 
-
+## Licence: BSD
