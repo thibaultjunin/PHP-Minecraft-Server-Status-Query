@@ -41,7 +41,7 @@ The following table contains the available variables the response can contain. T
 </tr>
 <tr>
 <td><pre>'hostname'</pre></td>
-<td>Exact server address in 127.0.0.1 format</td>
+<td>Exact server address in ipv4 format or dns record</td>
 </tr>
 <tr>
 <td><pre>'port'</pre></td>
