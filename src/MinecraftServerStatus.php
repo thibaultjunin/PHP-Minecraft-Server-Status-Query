@@ -21,7 +21,7 @@ class MinecraftServerStatus {
      */
     public static function query ($host = '127.0.0.1', $port = 25565) {
         // check if the host is in ipv4 format
-        $host = filter_var($host, FILTER_VALIDATE_IP) ? $host : gethostbyname($host);
+        //$host = filter_var($host, FILTER_VALIDATE_IP) ? $host : gethostbyname($host); // This is useless in the case of FLyCraft Network
         
         $socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
         if (! @socket_connect($socket, $host, $port)) {
